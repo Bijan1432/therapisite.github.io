@@ -1145,15 +1145,17 @@ text-decoration: none;
    margin-left: 53px;
 }
 
-.faq-item1 h3,h1,p,a{
+.faq-item1 a{
    margin-bottom: 32px;
 }
 .faq-item1 h3{
    color: hsl(49, 100%, 50%);
    font-size: 15px;
+   margin-bottom: 32px;
    /* margin-top: px; */
 }
 .faq-item1 h1{
+   margin-bottom: 32px;
    font-size: 54px;
    font-weight: bold;
    color: #004F4B ;
@@ -1161,7 +1163,7 @@ text-decoration: none;
 .faq-item1 p{
    color: gray;
    font-size: 14px;
-   margin-bottom: 44px;
+   margin-bottom: 64px;
 }
 
 .faq-item2{
