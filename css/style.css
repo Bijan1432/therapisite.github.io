@@ -47,7 +47,7 @@ width: 30rem;
    color: rgb(247, 225, 29);
 }
 .call .img{
-   width: 42px;
+   width: 50px;
    border: 5px solid rgb(224, 223, 223);
    border-radius: 33px;
    /* margin-bottom: -16px; */
@@ -55,7 +55,7 @@ width: 30rem;
    transform: rotate(92deg);
    justify-content: center;
     color: white;
-    height: 31px;
+    height: 50px;
     display: inline-flex;
     padding-top: 13px;
     text-align: center;
@@ -234,6 +234,7 @@ nav .fa{
    margin: 2px 25px;
    color: white;
    text-align: center;
+   font-size: .8rem;
    /* padding: auto; */
 }
 .info2 h2{
@@ -241,6 +242,7 @@ nav .fa{
    margin: 2px 25px;
    color: white;
    text-align: center;
+   font-size: 1.5rem;
    /* padding: auto; */
 }
 .info2,.info4{
@@ -275,6 +277,7 @@ nav .fa{
 }
 .info5  h2{
    color: #004F4B;
+   text-align: left;
 }
 
 .span input{
@@ -307,6 +310,7 @@ nav .fa{
    width: 80%;
    margin: auto;
    text-align: center;
+   margin-top: 8rem;
  
 
 }
@@ -377,7 +381,7 @@ nav .fa{
 }
 
 .faci-col .divider{
-   margin-top: 142px;
+   margin-top: 200px;
    height: 53px;
    background-color: hsl(0, 2%, 73%);
 }
@@ -465,7 +469,7 @@ nav .fa{
 }
 .service{
 width: 88%;
-margin: 0px auto;
+margin: -10px auto;
 /* padding: 0px 32px; */
 }
 
