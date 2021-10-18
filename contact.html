@@ -11,12 +11,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,300&display=swap" rel="stylesheet">
    <script src="https://kit.fontawesome.com/231abf9bc3.js" crossorigin="anonymous"></script>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
    <section class="header">
       <nav>
-         <a href="#"><img id="logo" src="img/223.jpg"></a>
+         <a href="#"><img id="logo" src="img/logo.png"></a>
          <div class="nav-links" id="navlinks">
             <i class="fa fa-times" onclick="hidemenu()"></i>
             <ul>
@@ -57,7 +58,7 @@
 
 
       </div>
-      <dib class="contact-item2">
+      <div class="contact-item2">
          <h3>Contact Us</h3>
          <h1>Get in Touch</h1>
          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam sapiente temporibus minima? Blanditiis sit
@@ -80,7 +81,7 @@
                <p> <a href="#"><i class="img fas fa-map-marked-alt"></i>JI, Sanur mo 88,depsar</a></p>
             </div>
          </div>
-      </dib>
+      </div>
    </section>
 
    <!-- footer -->
@@ -160,6 +161,18 @@
       </div>
    
    
-   </section>   
+   </section>  
+   
+   
+    <!-- javascript for toggle menu  -->
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function showmenu() {
+         navlinks.style.right = "0";
+      }
+      function hidemenu() {
+         navlinks.style.right = "-200px";
+      }
+   </script>
       </body>    
       </html>
