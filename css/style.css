@@ -211,6 +211,7 @@ nav .fa{
    border-top-left-radius: 5px;
    border-bottom-left-radius: 5px;
    background-color:#004F4B; 
+   padding: 18px;
 }
 .info2 .info3{
   
@@ -222,7 +223,7 @@ nav .fa{
 .info2 .img{
   
    margin: 4px 86px;
-   margin-top: 20px;
+   /* margin-top: 20px; */
    width: 20%;
    text-align: center;
    font-size: 39px;
@@ -726,6 +727,7 @@ margin: 0px auto;
       background:url("../img/1234.jpg") ;
       background-repeat: no-repeat;
       background-size: cover;
+      padding: 110px;
   }
   .clients{
    padding: 100px 120px;
@@ -1467,6 +1469,54 @@ color: yellow;
 }
 
 
+.client21{
+   margin-right: 12px !important;
+}
+
+
+
+
+ 
+
+.slick-slider{
+ margin: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1559,4 +1609,8 @@ display: block;
 .facility3{
    display: none;
 }
+
+.client{
+   padding: 49px !important;
+} 
 }
