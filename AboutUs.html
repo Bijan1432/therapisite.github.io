@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>HOME</title>
+   <title>About Us</title>
    <link rel="stylesheet" href="css/style.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,17 +17,19 @@
 <body>
    <section class="header">
       <nav>
-         <a href="#"><img id="logo" src="img/logo.png" alt="no"></a>
-         <div class="nav-links" id="navlink">
+         <a href="#"><img id="logo" src="img/logo.png"></a>
+         <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
             <ul>
                <li><a href="index.html">Home</a></li>
-               <li><a href="">About Us</a></li>
+               <li><a href="AboutUs.html">About Us</a></li>
                <li><a href="service.html">Service</a></li>
-               <li><a href="#">pages</a></li>
-               <li><a href="contact.html">contact Us</a></li>
+               <li><a href="news.html">Pages</a></li>
+               <li><a href="contact.html">Contact Us</a></li>
             </ul>
-
+  
          </div>
+         <i class="fa fa-bars" onclick="showmenu()"></i>
          <div class="call">
             <ul>
                <li><i class=" img fa fa-phone" aria-hidden="true"></i></li>
@@ -39,7 +41,7 @@
    </section>
    <!-- banner  -->
    <section class="news-banner">
-      <h1>Our Therapist</h1>
+      <h1>About US</h1>
 
    </section>
 
@@ -67,7 +69,7 @@
       <div class="clients">
          <div class="client1">
             <h3>
-               clients feedback
+               Clients Feedback
             </h3>
             <h1>Our Clients <br /> Review</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium velit obcaecati, porro repellat,
@@ -173,9 +175,9 @@
                <div class="symbol">
 
 
-                  <span id="up-arrow1">></span>
+                  <span id="up-arrow1"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
                   <span id="down-arrow1">
-                     < </span>
+                     <i class="fa fa-chevron-up" aria-hidden="true"></i></span>
                </div>Why Should I treatment in chyro?
             </label>
             <div class="data data1">
@@ -187,10 +189,10 @@
                <div class="symbol">
 
 
-                  <span id="up-arrow2">></span>
+                  <span id="up-arrow2"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
                   <span id="down-arrow2">
-                     < </span>
-               </div>How can i mannage i shedule for checkup?
+                     <i class="fa fa-chevron-up" aria-hidden="true"></i> </span>
+               </div>How can i mannage a shedule for checkup?
             </label>
             <div class="data data2 ">
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum suscipit sed mollitia vel laborum ut
@@ -202,9 +204,9 @@
                <div class="symbol">
 
 
-                  <span id="up-arrow3">></span>
+                  <span id="up-arrow3"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
                   <span id="down-arrow3">
-                     < </span>
+                     <i class="fa fa-chevron-up" aria-hidden="true"></i> </span>
                </div>What payment methods that chyro use at clinic? 
             </label>
             <div class="data data3">
@@ -251,7 +253,7 @@
                <a href="">
                   <p>Contact</p>
                </a>
-
+   
             </div>
          </div>
          <div class="menu1">
@@ -264,10 +266,10 @@
                   <p>Charity Program</p>
                </a>
                <a href="">
-                  <p>Privacy policy</p>
+                  <p>Privacy & Policy</p>
                </a>
                <a href="">
-                  <p>terms of use</p>
+                  <p>Terms of Use</p>
                </a>
             </div>
          </div>
@@ -275,16 +277,16 @@
             <div class="menu1-list">
                <h3>Contact US</h3>
                <a href="">
-                  <p><i class="img fas fa-map-marked-alt"></i>JI, Sanur mo 88,depsar <br> &nbsp; &nbsp; &nbsp; &nbsp;
-                     bali,indoisa-80225</p>
+                  <p><i class="img fas fa-map-marked-alt"></i>JI, Sanur No. 88,depsar <br> &nbsp; &nbsp; &nbsp; &nbsp;
+                     Bali,Indoisa-80225</p>
                </a>
                <a href="">
                   <p><i class=" img fa fa-phone"></i>+62 316 234 567</p>
                </a>
                <a href="">
-                  <p><i class="img far fa-envelope"></i>contact@domain</p>
+                  <p><i class="img far fa-envelope"></i>contact@domain.com</p>
                </a>
-
+   
             </div>
          </div>
          <div class="menu2">
@@ -294,20 +296,22 @@
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos sequi cumque molestiae architecto
                      libero! Perspiciatis autem amet et.</p>
                </a>
-
-
+   
+   
             </div>
             <a href="#" class="feedback"><i class=" img fa fa-phone"></i>+62 316 234 567</a>
          </div>
       </div>
-
+   
       <div class="hr">
          <hr>
       </div>
-
+   
       <div class="copyright">
-         <p> copyright &copy; 2021. All rights reserved</p>
+         <p> Copyright &copy; 2021. All rights reserved</p>
       </div>
+   
+   
    </section>
 
 <script>
