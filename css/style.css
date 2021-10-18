@@ -1155,7 +1155,7 @@ text-decoration: none;
 
 .expert{
    width: 100%;
-   height: 180vh;
+   /* height: 180vh; */
    padding: 23px 34px;
    box-sizing: border-box;
 }
@@ -1613,4 +1613,89 @@ display: block;
 .client{
    padding: 49px !important;
 } 
+
+.facility4{
+   flex-direction: column;
+}
+
+
+/* Contact us */
+.contact{
+   flex-direction: column;
+   margin: 30px
+}
+
+.news-banner h1{
+   padding: 80px;
+}
+.contact-item1 input, .contact-item1 textarea {
+   margin-left: 0;
+
+}
+.cont-btn{
+   padding: 12px 67px;
+   margin-left: 0;
+}
+.contact-item2{
+   text-align: center;
+}
+.con{
+   flex-direction: column;
+}
+.contact-item2 iframe{
+   width: 300px;
+}
+
+
+
+/* news  */
+.news{
+   flex-direction: column;
+   width: 100%;
+   margin: 0;
+}
+.news-grid { grid-template-columns: repeat(1,auto) !important;}
+.news-item img{
+   width: 292px;
+}
+.ournews{
+   margin: 25px;
+}
+.letnews{
+   margin: 32px;
+}
+
+
+/* about us  */
+.gallary{
+   grid-template-columns: repeat(1,auto) !important;
+   width: 100%;
+}
+.faq-item1 h1{
+   font-size:25px;
+}
+.faq-item1{
+   margin-left: 0;
+}
+.faq{
+   flex-direction: column;
+}
+.bar,.data{
+   font-size: 14px;
+}
+.fa{
+   margin-left: 26px;
+}
+.data.show{
+   padding-top: 2px;
+}
+.faq-item2 {
+   margin-left: -27px;
+}
+.bar{
+   padding-left: 12px;
+}
+.data{
+   width: auto;
+}
 }
