@@ -688,7 +688,7 @@ margin: -10px auto;
 
    .fac .img{
       height: 75px;
-      width: 160px;
+      width: 161px;
       margin-top: 18px;
       justify-content: center;
       align-items: center;
@@ -838,6 +838,7 @@ margin: -10px auto;
    background-size: cover;
    background-repeat: no-repeat;
    color: white;
+   text-align: center;
 }
 
 .facility5 h1{
@@ -1084,7 +1085,7 @@ text-decoration: none;
 .news-form{
    background: #004F4B;
    height: 380px;
-   width: 314px;
+   width: 333px;
    border-radius: 15px;
    margin-bottom: 18px;
 }
@@ -1105,12 +1106,12 @@ text-decoration: none;
 }
 
 .news-form input{
-   width: 203px;
+   /* width: 203px; */
    height: 51px;
    outline: none;
    margin-top: 24px;
    border: none;
-   padding-left: 10px;
+   padding-left: 22px;
    border-radius: 4px;
   margin-left: 50px;
   margin-bottom: 35px;
@@ -1118,7 +1119,7 @@ text-decoration: none;
 
 .news-form a{
    margin-left: 50px;
-   padding: 17px 75px;
+   padding: 17px 84px;
 }
 
 .featured-item{
@@ -1385,7 +1386,7 @@ color: yellow;
 .contact-item1{
    flex-basis: 44%;
    box-shadow:1px 1px 18px -7px grey;
-   height: 565px;
+   /* height: 565px; */
    padding: 34px;
    padding-top: 60px;
    border-radius: 6px;
@@ -1597,9 +1598,7 @@ padding: 80px 53px;
 .client21{
    margin-top: 40px;
 }
-.facility5 .get{
-margin-left: 100px;
-}
+
 .grid-2{
    grid-template-columns: repeat(1,auto) !important;
 } 
@@ -1686,7 +1685,7 @@ display: block;
    width: 292px;
 }
 .ournews{
-   margin: 25px;
+   margin: 14px;
 }
 .letnews{
    margin: 32px;
