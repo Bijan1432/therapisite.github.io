@@ -1373,6 +1373,7 @@ color: yellow;
    display: flex;
    align-items: center;
    justify-content: space-between;
+   padding-bottom: 60px;
 }
 .contact-item1{
    flex-basis: 44%;
@@ -1418,6 +1419,9 @@ color: yellow;
    font-size: 19px; 
  color: hsl(49, 100%, 54%);
  margin-bottom: 14px;
+ 
+ margin-top: 3rem;
+
 }
 .contact-item2 h1{
    color: #004F4B ; 
@@ -1470,9 +1474,14 @@ color: yellow;
 .menu1 .img{
    color:  hsl(49, 100%, 54%);
    margin-right: 12px;
+  
 }
 
-
+.fa-phone{
+   transform: rotate(
+      92deg);
+      
+}
 .client21{
    margin-right: 12px !important;
 }
@@ -1622,7 +1631,14 @@ display: block;
    flex-direction: column;
 }
 
-
+.fac{
+   padding: 23px 0px;
+   margin: 25px -17px;
+}
+.fac .img{
+   width: 198px;
+   margin-right: 20px;
+}
 /* Contact us */
 .contact{
    flex-direction: column;
